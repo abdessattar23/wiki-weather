@@ -2,14 +2,10 @@
   "name": "wiki-weather",
   "version": "1.0.0",
   "description": "This is a weather website, ligh, fast and cool",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
+  "type": "module",
   "author": "Abdel Droid",
   "dependencies": {
     "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10",
-    "nodemon": "^2.0.15"
+    "cheerio": "^1.0.0-rc.10"
   }
 }
