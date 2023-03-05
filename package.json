@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
   "build": "node index.js"
-}
-
+},
   "dependencies": {
     "node-fetch": "^3.0.0",
     "cheerio": "^1.0.0-rc.3"
