@@ -1,11 +1,10 @@
 {
   "name": "wiki-weather",
   "version": "1.0.0",
-  "description": "This is a weather website, ligh, fast and cool",
   "type": "module",
-  "author": "Abdel Droid",
   "dependencies": {
-    "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10"
+    "node-fetch": "^3.0.0",
+    "cheerio": "^1.0.0-rc.3"
   }
 }
+
