@@ -1,11 +1,11 @@
-import axios from 'axios';
+import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
 const city = 'example_city';
 
 export async function getUserInfo(city) {
   const url = `https://www.google.com/?q=${city}+weather/`;
-  const response = await axios(url);
+  const response = await fetch(url);
   const html = await response.text();
   const $ = cheerio.load(html);
 
@@ -27,7 +27,7 @@ export async function getUserInfo(city) {
   return userInfo;
 }
 
-getUserInfo(username)
+getUserInfo(city)
   .then((userInfo) => {
     console.log(userInfo);
   })
